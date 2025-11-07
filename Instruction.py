@@ -155,7 +155,7 @@ def connect_git_to_github():
     print("To add your project files = git add .")
     print("To commit your file = git commit -m 'initial commit'.")
     print("To connect your local folder to your github repository = git remote add origin 'your repository URL'")
-    print("To upload youe local files to github =  git push -u origin main\n")
+    print("To upload youe local files to github =  git push -u origin main (or master if youre using master branch)\n")
     next_action = navigate(4)
     route(next_action)
 
